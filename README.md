@@ -13,8 +13,8 @@ This project is a basic calculator application with automated tests using PyTest
    pip install pytest flake8
    ```
 3. Run tests locally.
-```bash
+    ```bash
     pytest
-```
+    ```
 Tests are automatically triggered on every push via Github Actions.
 
