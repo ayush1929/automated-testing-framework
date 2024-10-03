@@ -1,6 +1,8 @@
 import pytest
 from app.app import Calculator
+import logging
 
+logging.basicConfig(level=logging.INFO)
 # Initialize the calculator
 calc = Calculator()
 
