@@ -20,3 +20,7 @@ def test_division():
     assert calc.divide(10, 2) == 5
     with pytest.raises(ValueError):
         calc.divide(10, 0)  # This should raise an error for division by zero
+
+def test_invalid_inputs():
+    with pytest.raises(TypeError):
+        calc.add("a", 3)  # Expecting a TypeError because "a" is not a number
